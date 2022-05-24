@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;900&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing:border-box ;
+}
+
+ body{
+
+    font-family: sans-serif;
+    font-size: 16px;
+    width:330px;
+    background-color: hsl(217, 54%, 11%);
+    padding: 18px;
+    margin: 0px 50px 0px 450px ;
+ }
+
+ .mainbox{
+
+    padding: 1rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 8px;
+ }
+ .top img{
+
+    width:260px;
+    border-radius:7px;
+
+ }
+
+ .bottom{
+    margin: 5px 5px 5px 5px;
+ }
+
+ .bottom h3{
+     color: white;
+     padding: 1rem 1rem 1rem 0rem;
+     font-weight:800;
+   
+ }
+
+ . :hover{
+    color: hsl(178, 100%, 50%);
+ }
+
+ .bottom p{
+
+    color:  hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 300px;
+
+ }
+
+
+ ul{
+    display:flex ;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    font-size: 16px;
+    margin-bottom: 8px; 
+ }
+
+ .first{
+
+    color: hsl(178, 100%, 50%);
+    font-style:normal;
+    font-weight: 500;
+ }
+
+
+ .second{
+     color:  hsl(215, 51%, 70%);
+     font-weight: 500;
+}
+
+.creation{
+   border-top: 1px solid  hsl(0, 0%, 100%, 35%);
+   display: flex;
+   padding-top:20px;
+
+}
+ 
+ .creation img{
+    width: 30px;
+    margin-right: 10px;
+    border:1px solid cadetblue;
+    border-radius: 50%;
+ }
+
+ .creation p{
+    padding-top: 6px;
+    margin-left: 5px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 500;
+ }
+
+ .creation p span{
+
+   color:  hsl(0, 0%, 100% , 70%);
+   padding: 7px;
+
+ }
